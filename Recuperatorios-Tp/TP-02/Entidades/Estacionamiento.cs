@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Entidades
@@ -76,17 +77,15 @@ namespace Entidades
                             sb.AppendLine(v.Mostrar());
                         }
                          break;
-                    case ETipo.Moto:
+                    case ETipo.Moto:                      
                         if (v is Moto)
-                        {
-                            
+                        {                           
                             sb.AppendLine(v.Mostrar());
-                            
-                        }
+                        }                       
                         break;
-                    case ETipo.Automovil:
+                    case ETipo.Automovil:                       
                         if (v is Automovil)
-                        {
+                        {                           
                             sb.AppendLine(v.Mostrar());
                         }
                         break;
@@ -95,7 +94,7 @@ namespace Entidades
                         break;
                 }
             }
-
+            
             return sb.ToString();
         }
         #endregion

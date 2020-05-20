@@ -41,3 +41,13 @@ C:\Users\miche\Desktop\Laboratorio_2-2020-\TP-02\TP-02\obj\Debug\TP-02.csproj.Co
 C:\Users\miche\Desktop\Laboratorio_2-2020-\TP-02\TP-02\obj\Debug\TP-02.csproj.CopyComplete
 C:\Users\miche\Desktop\Laboratorio_2-2020-\TP-02\TP-02\obj\Debug\TP-02.exe
 C:\Users\miche\Desktop\Laboratorio_2-2020-\TP-02\TP-02\obj\Debug\TP-02.pdb
+C:\Users\miche\Desktop\Tp_Laboratorio_2\Recuperatorios-Tp\TP-02\TP-02\bin\Debug\TP-02.exe.config
+C:\Users\miche\Desktop\Tp_Laboratorio_2\Recuperatorios-Tp\TP-02\TP-02\bin\Debug\TP-02.exe
+C:\Users\miche\Desktop\Tp_Laboratorio_2\Recuperatorios-Tp\TP-02\TP-02\bin\Debug\TP-02.pdb
+C:\Users\miche\Desktop\Tp_Laboratorio_2\Recuperatorios-Tp\TP-02\TP-02\bin\Debug\Entidades.dll
+C:\Users\miche\Desktop\Tp_Laboratorio_2\Recuperatorios-Tp\TP-02\TP-02\bin\Debug\Entidades.pdb
+C:\Users\miche\Desktop\Tp_Laboratorio_2\Recuperatorios-Tp\TP-02\TP-02\obj\Debug\TP-02.csprojAssemblyReference.cache
+C:\Users\miche\Desktop\Tp_Laboratorio_2\Recuperatorios-Tp\TP-02\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
+C:\Users\miche\Desktop\Tp_Laboratorio_2\Recuperatorios-Tp\TP-02\TP-02\obj\Debug\TP-02.csproj.CopyComplete
+C:\Users\miche\Desktop\Tp_Laboratorio_2\Recuperatorios-Tp\TP-02\TP-02\obj\Debug\TP-02.exe
+C:\Users\miche\Desktop\Tp_Laboratorio_2\Recuperatorios-Tp\TP-02\TP-02\obj\Debug\TP-02.pdb

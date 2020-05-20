@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Entidades
@@ -42,13 +43,14 @@ namespace Entidades
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-
+  
             sb.AppendLine("MOTO");
             sb.AppendLine((string)this);
             sb.AppendLine("TAMAÑO : "+ this.Tamanio);
             sb.AppendLine("");
             sb.AppendLine("---------------------");
 
+            
             return sb.ToString();
         }
         #endregion
