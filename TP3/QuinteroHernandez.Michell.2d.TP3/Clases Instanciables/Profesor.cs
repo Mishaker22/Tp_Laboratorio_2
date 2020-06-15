@@ -36,7 +36,13 @@ namespace Clases_Instanciables
         /// <returns></returns>
         protected override string ParticiparEnClase()
         {
-            return("CLASES DEL DIA: "+this.clasesDelDia);
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("CLASES DEL DIA: ");
+            foreach (Universidad.EClases item in this.clasesDelDia)
+            {
+                sb.AppendLine(item.ToString());
+            }
+            return sb.ToString();
         }
         /// <summary>
         /// retorna todos los datos del docente en cadena
@@ -83,6 +89,7 @@ namespace Clases_Instanciables
         /// <returns>True si el profesor participa, false caso contrario.</returns>
         public static bool operator ==(Profesor i, Universidad.EClases clase)
         {
+           
             foreach (Universidad.EClases item in i.clasesDelDia)
             {
                 if (item == clase)
@@ -90,6 +97,7 @@ namespace Clases_Instanciables
                     return true;
                 }
             }
+
             return false;
         }
         /// <summary>

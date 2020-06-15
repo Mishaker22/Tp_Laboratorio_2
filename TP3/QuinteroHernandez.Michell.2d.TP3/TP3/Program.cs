@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EntidadesAbstractas=Clases_Abstractas
-    ;
+using EntidadesAbstractas=Clases_Abstractas;
 using Clases_Instanciables;
 using Excepciones;
 
@@ -126,4 +125,5 @@ namespace TP3
             }
             Console.ReadKey();
         }
+    }
 }

@@ -1,0 +1,6 @@
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\TP3\QuinteroHernandez.Michell.2d.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\TP3\QuinteroHernandez.Michell.2d.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\TP3\QuinteroHernandez.Michell.2d.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\TP3\QuinteroHernandez.Michell.2d.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\TP3\QuinteroHernandez.Michell.2d.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\TP3\QuinteroHernandez.Michell.2d.TP3\Excepciones\obj\Debug\Excepciones.pdb

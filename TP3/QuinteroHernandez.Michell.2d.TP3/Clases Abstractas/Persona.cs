@@ -135,7 +135,7 @@ namespace Clases_Abstractas
         /// <returns></returns>
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
-            if (dato <= 1 && dato >= 89999999)
+            if (dato >= 1 && dato <= 89999999)
             {
                 if (nacionalidad == ENacionalidad.Argentino)
                 {
@@ -200,7 +200,7 @@ namespace Clases_Abstractas
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("Nombre Completo: {0}, {1} \n ", this.Apellido, this.Nombre);
+            sb.AppendFormat("NOMBRE COMPLETO: {0}, {1} \n ", this.Apellido, this.Nombre);
             sb.AppendFormat("Nacionalidad: " + this.Nacionalidad);
             sb.AppendFormat("\n DNI: " + this.DNI);
 

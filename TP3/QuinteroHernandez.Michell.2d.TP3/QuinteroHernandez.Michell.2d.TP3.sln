@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP3", "TP3\TP3.csproj", "{95DE0548-1F93-4B22-9795-0515480D671C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP3_Main", "TP3\TP3_Main.csproj", "{95DE0548-1F93-4B22-9795-0515480D671C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases_Abstractas", "Clases Abstractas\Clases_Abstractas.csproj", "{52DCE45A-9EC4-44C0-B2BF-958C19E15800}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases Abstractas", "Clases Abstractas\Clases Abstractas.csproj", "{52DCE45A-9EC4-44C0-B2BF-958C19E15800}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archivos.csproj", "{BF021775-27D3-49B3-8AE4-78E5E15DCCE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases_Instanciables", "Clases Instanciables\Clases_Instanciables.csproj", "{0D04AC14-C328-424D-9049-010017F208F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases Instanciables", "Clases Instanciables\Clases Instanciables.csproj", "{0D04AC14-C328-424D-9049-010017F208F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\Excepciones.csproj", "{15D948E4-2CC9-4E45-91BC-A85E9676FACB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTest", "UniTest\UniTest.csproj", "{92F49895-61F3-4721-9CA4-3C412E496451}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTest", "UniTest\UniTest.csproj", "{60AD015D-7F52-4008-A757-F6B151080218}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{15D948E4-2CC9-4E45-91BC-A85E9676FACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15D948E4-2CC9-4E45-91BC-A85E9676FACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15D948E4-2CC9-4E45-91BC-A85E9676FACB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92F49895-61F3-4721-9CA4-3C412E496451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92F49895-61F3-4721-9CA4-3C412E496451}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92F49895-61F3-4721-9CA4-3C412E496451}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92F49895-61F3-4721-9CA4-3C412E496451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60AD015D-7F52-4008-A757-F6B151080218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AD015D-7F52-4008-A757-F6B151080218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AD015D-7F52-4008-A757-F6B151080218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AD015D-7F52-4008-A757-F6B151080218}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

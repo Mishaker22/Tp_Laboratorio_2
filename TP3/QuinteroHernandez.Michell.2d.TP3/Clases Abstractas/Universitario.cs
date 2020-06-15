@@ -29,9 +29,9 @@ namespace Clases_Abstractas
         protected virtual string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
-
-            sb.AppendLine("Legajo: " + this.legajo);
             sb.AppendLine(base.ToString());
+            sb.AppendLine("Legajo: " + this.legajo);
+            
 
             return sb.ToString();
         }
@@ -66,7 +66,7 @@ namespace Clases_Abstractas
         /// <returns></returns>
         public static bool operator ==(Universitario pg1, Universitario pg2)
         {
-            if ( pg1 !=null && pg2 != null && pg1.DNI==pg2.DNI || pg1.legajo == pg2.legajo)//poner punto
+            if (pg1.DNI==pg2.DNI || pg1.legajo == pg2.legajo)//poner punto
             {
                 return true;
             }
