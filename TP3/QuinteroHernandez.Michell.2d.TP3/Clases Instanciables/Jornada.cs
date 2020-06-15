@@ -158,7 +158,7 @@ namespace Clases_Instanciables
             }
         }
         /// <summary>
-        /// lee el txt donde guarda el archivo de la jornada y los retorna string
+        /// lee el txt guardado en la carpeta \Archivos DEL TP3 el archivo de la jornada y los retorna string
         /// </summary>
         /// <returns></returns>
         public static string Leer()

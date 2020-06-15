@@ -1,11 +1,11 @@
-CLASE DE: Laboratorio DIRIGIDA POR: NOMBRE COMPLETO: Juarez, Roberto 
+CLASE DE: Laboratorio DIRIGIDA POR: NOMBRE COMPLETO: Lopez, Juan 
  Nacionalidad: Argentino
- DNI: 32234456
-Legajo: 2
+ DNI: 12224458
+Legajo: 1
 
 CLASES DEL DIA: 
 Laboratorio
-Legislacion
+SPD
 
 ALUMNOS: 
 NOMBRE COMPLETO: Suarez, Joaquin 

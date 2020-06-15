@@ -50,28 +50,15 @@
       </Alumnos>
       <Clase>Laboratorio</Clase>
       <Instructor>
-        <Nombre>Roberto</Nombre>
-        <Apellido>Juarez</Apellido>
-        <DNI>32234456</DNI>
+        <Nombre>Juan</Nombre>
+        <Apellido>Lopez</Apellido>
+        <DNI>12224458</DNI>
         <Nacionalidad>Argentino</Nacionalidad>
       </Instructor>
     </Jornada>
     <Jornada>
-      <Alumnos>
-        <Alumno>
-          <Nombre>Miguel</Nombre>
-          <Apellido>Hernandez</Apellido>
-          <DNI>92264456</DNI>
-          <Nacionalidad>Extranjero</Nacionalidad>
-        </Alumno>
-        <Alumno>
-          <Nombre>Rodrigo</Nombre>
-          <Apellido>Smith</Apellido>
-          <DNI>22236456</DNI>
-          <Nacionalidad>Argentino</Nacionalidad>
-        </Alumno>
-      </Alumnos>
-      <Clase>Legislacion</Clase>
+      <Alumnos />
+      <Clase>SPD</Clase>
       <Instructor>
         <Nombre>Juan</Nombre>
         <Apellido>Lopez</Apellido>
