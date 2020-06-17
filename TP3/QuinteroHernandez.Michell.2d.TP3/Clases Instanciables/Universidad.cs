@@ -98,7 +98,7 @@ namespace Clases_Instanciables
         {
             foreach (Alumno item in g.Alumnos)
             {
-                if (item.Equals(a))
+                if (item==a)
                 {
                     return true;
                 }

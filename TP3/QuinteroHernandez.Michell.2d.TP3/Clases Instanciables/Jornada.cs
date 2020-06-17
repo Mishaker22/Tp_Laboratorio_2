@@ -146,7 +146,8 @@ namespace Clases_Instanciables
                 System.IO.Directory.CreateDirectory(ruta);
 
                 Texto txt = new Texto();
-               
+                //string file_name = AppDomain.CurrentDomain.BaseDirectory + "\\Jornada.txt";
+                //return txt.Guardar(file_name, jornada.ToString());
 
                 txt.Guardar((ruta + @"\Jornada.txt"), jornada.ToString());
                 return true;

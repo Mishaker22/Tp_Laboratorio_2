@@ -10,14 +10,26 @@ namespace Clases_Abstractas
     {
         private int legajo;
 
+        #region operadores
+        /// <summary>
+        /// Get / Set del legajo
+        /// </summary>
+        public int Legajo
+        {
+            get { return this.legajo; }
+            set { this.legajo = value; }
+        }
+        #endregion
+
         #region Constructores
         public Universitario():base()
         {
 
         }
+        
         public Universitario(int legajo, string nombre, string apellido, string dni, ENacionalidad nacionalidad):base(nombre,apellido,dni,nacionalidad)
         {
-            this.legajo = legajo;
+            this.Legajo = legajo;
         }
         #endregion
 
@@ -41,23 +53,19 @@ namespace Clases_Abstractas
         /// <returns></returns>
         protected abstract string ParticiparEnClase();
 
-        /// <summary>
-        /// Verifica y el objeto a comparar es de tipo Universitario, y si lo es,
-        /// verifica si es igual al objeto que llama la funcion.
-        /// </summary>
-        /// <param name="obj">Objeto a comparar.</param>
-        /// <returns>true si son iguales, false caso contrario.</returns>
-        public override bool Equals(object obj)
-        {
-            if (obj is Universitario)
-            {
-                return (this == (Universitario)obj);
-            }
-            return false;
-        }
         #endregion
 
-        #region Sobrecarga == 
+        #region Sobrecargas de operadores
+        /// <summary>
+        /// El objeto sera equivalente, si es del tipo Universitario y si el Dni o Legajo son iguales.
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        public override bool Equals(object obj)
+        {
+            return (obj.GetType() == typeof(Universitario) && this == (Universitario)obj);
+        }
+        
         /// <summary>
         /// Compara que el 2 universitarios no sean el mismo, comparando por dni o legajo
         /// </summary>
@@ -66,7 +74,7 @@ namespace Clases_Abstractas
         /// <returns></returns>
         public static bool operator ==(Universitario pg1, Universitario pg2)
         {
-            if (pg1.DNI==pg2.DNI || pg1.legajo == pg2.legajo)//poner punto
+            if (pg1.GetType() == pg2.GetType() && (pg1.DNI==pg2.DNI || pg1.legajo == pg2.legajo))//poner punto
             {
                 return true;
             }

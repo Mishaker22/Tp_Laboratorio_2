@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95DE0548-1F93-4B22-9795-0515480D671C}</ProjectGuid>
+    <ProjectGuid>{C854BEE4-0122-46E4-98BE-8F4507DD2029}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TP3</RootNamespace>
-    <AssemblyName>TP3</AssemblyName>
+    <RootNamespace>Tp3_Consola</RootNamespace>
+    <AssemblyName>Tp3_Consola</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,13 +54,13 @@
       <Project>{bf021775-27d3-49b3-8ae4-78e5e15dcce3}</Project>
       <Name>Archivos</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Clases Abstractas\Clases_Abstractas.csproj">
+    <ProjectReference Include="..\Clases Abstractas\Clases Abstractas.csproj">
       <Project>{52dce45a-9ec4-44c0-b2bf-958c19e15800}</Project>
-      <Name>Clases_Abstractas</Name>
+      <Name>Clases Abstractas</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Clases Instanciables\Clases_Instanciables.csproj">
+    <ProjectReference Include="..\Clases Instanciables\Clases Instanciables.csproj">
       <Project>{0d04ac14-c328-424d-9049-010017f208f8}</Project>
-      <Name>Clases_Instanciables</Name>
+      <Name>Clases Instanciables</Name>
     </ProjectReference>
     <ProjectReference Include="..\Excepciones\Excepciones.csproj">
       <Project>{15d948e4-2cc9-4e45-91bc-a85e9676facb}</Project>

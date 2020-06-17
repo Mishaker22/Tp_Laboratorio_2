@@ -76,19 +76,7 @@ namespace Clases_Abstractas
         public ENacionalidad Nacionalidad
         {
             get { return this.nacionalidad; }
-            set
-            {
-                try
-                {
-                    ValidarDni(value, this.dni);
-                    this.nacionalidad = value;
-                }
-                catch (DniInvalidoException)
-                {
-
-                    throw new NacionalidadInvalidaException("La nacionalidad No coincide con el dni de la persona");
-                }
-            }
+            set {this.nacionalidad = value; }
         }
         /// <summary>
         /// setea el string del valor del dni de una persona, se verifica que sea valido y coincida con la nacionalidad e una persona
@@ -111,13 +99,13 @@ namespace Clases_Abstractas
 
         public Persona(string nombre, string apellido, ENacionalidad nacionalidad) : this()
         {
-            this.nombre = nombre;
-            this.apellido = apellido;
-            this.nacionalidad = nacionalidad;
+            this.Nombre = nombre;
+            this.Apellido = apellido;
+            this.Nacionalidad = nacionalidad;
         }
         public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad) : this(nombre, apellido, nacionalidad)
         {
-            this.dni = dni;
+            this.DNI = dni;
         }
         public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad) : this(nombre, apellido, nacionalidad)
         {
