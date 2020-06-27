@@ -1,0 +1,10 @@
+C:\Users\miche\source\repos\TP4\QuinteroHernandez.Michell.2D.TP4\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\miche\source\repos\TP4\QuinteroHernandez.Michell.2D.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\miche\source\repos\TP4\QuinteroHernandez.Michell.2D.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\miche\source\repos\TP4\QuinteroHernandez.Michell.2D.TP4\Entidades\bin\Debug\EntidadesAlumno.dll
+C:\Users\miche\source\repos\TP4\QuinteroHernandez.Michell.2D.TP4\Entidades\bin\Debug\EntidadesHechas.dll
+C:\Users\miche\source\repos\TP4\QuinteroHernandez.Michell.2D.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\miche\source\repos\TP4\QuinteroHernandez.Michell.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\miche\source\repos\TP4\QuinteroHernandez.Michell.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\miche\source\repos\TP4\QuinteroHernandez.Michell.2D.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\miche\source\repos\TP4\QuinteroHernandez.Michell.2D.TP4\Entidades\obj\Debug\Entidades.pdb

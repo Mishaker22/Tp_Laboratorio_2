@@ -14,7 +14,7 @@ namespace Entidades
         EnViaje,
         Entregado
     }
-    public class Paquete: IMostrar<Paquete>
+    public class Paquete : IMostrar<Paquete>
     {
         #region Anidados
         public delegate void DelegadoEstado(object obj, EventArgs e);
@@ -32,7 +32,7 @@ namespace Entidades
             get { return this.direccionEntrega; }
             set { this.direccionEntrega = value; }
         }
-        
+
         public string TrackingID
         {
             get { return this.trackingId; }
@@ -54,7 +54,7 @@ namespace Entidades
             this.TrackingID = trackingID;
         }
         #endregion
-            
+
         #region Metodos
         /// <summary>
         /// Implementa interface de Imensaje, retorna un string cargado con los datos  de un paquete
@@ -71,27 +71,29 @@ namespace Entidades
         /// </summary>
         public void MockCicloDeVida()
         {
-            while (true)
+
+            if (this.InformaEstado != null)
             {
-                Thread.Sleep(4000);
-                if (this.InformaEstado != null)
+                try
                 {
-                    this.Estado++;
-                    this.InformaEstado(this, EventArgs.Empty);
+                    for (int i = 0; i < 2; i++)
+                    {
+                        Thread.Sleep(4000);
+                        this.Estado++;
+                        this.InformaEstado(this, EventArgs.Empty);
+                        
+                    }
+                    PaqueteDAO.Insertar(this);
+                   
                 }
-                else
+                catch (Exception e)
                 {
-                    try
-                    {
 
-                    }
-                    catch (Exception)
-                    {
-
-                        throw;
-                    }
+                    this.InformaEstado(e, EventArgs.Empty);
                 }
+                
             }
+            
         }
         /// <summary>
         /// Muestra los datos de un paquete

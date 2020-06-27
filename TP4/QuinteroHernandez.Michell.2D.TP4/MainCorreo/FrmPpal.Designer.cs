@@ -28,10 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.grbPaquetes = new System.Windows.Forms.GroupBox();
-            this.lsbEstadoEntregado = new System.Windows.Forms.ListBox();
-            this.lsbEstadoEnViaje = new System.Windows.Forms.ListBox();
-            this.lsbEstadoIngresado = new System.Windows.Forms.ListBox();
+            this.lstEstadoEntregado = new System.Windows.Forms.ListBox();
+            this.lstEstadoEnViaje = new System.Windows.Forms.ListBox();
+            this.lstEstadoIngresado = new System.Windows.Forms.ListBox();
             this.lblEstadoEntregado = new System.Windows.Forms.Label();
             this.lblEstadoEnViaje = new System.Windows.Forms.Label();
             this.lblEstadoIngresado = new System.Windows.Forms.Label();
@@ -43,15 +44,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblTrackingID = new System.Windows.Forms.Label();
             this.mtbTrackingID = new System.Windows.Forms.MaskedTextBox();
+            this.cmsListas = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.mostrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grbPaquetes.SuspendLayout();
             this.grbPaquete.SuspendLayout();
+            this.cmsListas.SuspendLayout();
             this.SuspendLayout();
             // 
             // grbPaquetes
             // 
-            this.grbPaquetes.Controls.Add(this.lsbEstadoEntregado);
-            this.grbPaquetes.Controls.Add(this.lsbEstadoEnViaje);
-            this.grbPaquetes.Controls.Add(this.lsbEstadoIngresado);
+            this.grbPaquetes.Controls.Add(this.lstEstadoEntregado);
+            this.grbPaquetes.Controls.Add(this.lstEstadoEnViaje);
+            this.grbPaquetes.Controls.Add(this.lstEstadoIngresado);
             this.grbPaquetes.Controls.Add(this.lblEstadoEntregado);
             this.grbPaquetes.Controls.Add(this.lblEstadoEnViaje);
             this.grbPaquetes.Controls.Add(this.lblEstadoIngresado);
@@ -62,29 +66,30 @@
             this.grbPaquetes.TabStop = false;
             this.grbPaquetes.Text = "Estados Paquetes";
             // 
-            // lsbEstadoEntregado
+            // lstEstadoEntregado
             // 
-            this.lsbEstadoEntregado.FormattingEnabled = true;
-            this.lsbEstadoEntregado.Location = new System.Drawing.Point(513, 69);
-            this.lsbEstadoEntregado.Name = "lsbEstadoEntregado";
-            this.lsbEstadoEntregado.Size = new System.Drawing.Size(232, 238);
-            this.lsbEstadoEntregado.TabIndex = 5;
+            this.lstEstadoEntregado.ContextMenuStrip = this.cmsListas;
+            this.lstEstadoEntregado.FormattingEnabled = true;
+            this.lstEstadoEntregado.Location = new System.Drawing.Point(513, 69);
+            this.lstEstadoEntregado.Name = "lstEstadoEntregado";
+            this.lstEstadoEntregado.Size = new System.Drawing.Size(232, 238);
+            this.lstEstadoEntregado.TabIndex = 5;
             // 
-            // lsbEstadoEnViaje
+            // lstEstadoEnViaje
             // 
-            this.lsbEstadoEnViaje.FormattingEnabled = true;
-            this.lsbEstadoEnViaje.Location = new System.Drawing.Point(262, 69);
-            this.lsbEstadoEnViaje.Name = "lsbEstadoEnViaje";
-            this.lsbEstadoEnViaje.Size = new System.Drawing.Size(232, 238);
-            this.lsbEstadoEnViaje.TabIndex = 4;
+            this.lstEstadoEnViaje.FormattingEnabled = true;
+            this.lstEstadoEnViaje.Location = new System.Drawing.Point(262, 69);
+            this.lstEstadoEnViaje.Name = "lstEstadoEnViaje";
+            this.lstEstadoEnViaje.Size = new System.Drawing.Size(232, 238);
+            this.lstEstadoEnViaje.TabIndex = 4;
             // 
-            // lsbEstadoIngresado
+            // lstEstadoIngresado
             // 
-            this.lsbEstadoIngresado.FormattingEnabled = true;
-            this.lsbEstadoIngresado.Location = new System.Drawing.Point(6, 69);
-            this.lsbEstadoIngresado.Name = "lsbEstadoIngresado";
-            this.lsbEstadoIngresado.Size = new System.Drawing.Size(232, 238);
-            this.lsbEstadoIngresado.TabIndex = 3;
+            this.lstEstadoIngresado.FormattingEnabled = true;
+            this.lstEstadoIngresado.Location = new System.Drawing.Point(6, 69);
+            this.lstEstadoIngresado.Name = "lstEstadoIngresado";
+            this.lstEstadoIngresado.Size = new System.Drawing.Size(232, 238);
+            this.lstEstadoIngresado.TabIndex = 3;
             // 
             // lblEstadoEntregado
             // 
@@ -145,6 +150,7 @@
             this.btnMostrarTodos.TabIndex = 10;
             this.btnMostrarTodos.Text = "Mostrar Todos";
             this.btnMostrarTodos.UseVisualStyleBackColor = true;
+            this.btnMostrarTodos.Click += new System.EventHandler(this.btnMostrarTodos_Click);
             // 
             // btnAgregar
             // 
@@ -154,6 +160,7 @@
             this.btnAgregar.TabIndex = 9;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click_1);
             // 
             // tbDireccion
             // 
@@ -188,6 +195,20 @@
             this.mtbTrackingID.Size = new System.Drawing.Size(171, 20);
             this.mtbTrackingID.TabIndex = 0;
             // 
+            // cmsListas
+            // 
+            this.cmsListas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mostrarToolStripMenuItem});
+            this.cmsListas.Name = "cmsListas";
+            this.cmsListas.Size = new System.Drawing.Size(122, 26);
+            // 
+            // mostrarToolStripMenuItem
+            // 
+            this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
+            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.mostrarToolStripMenuItem.Text = "Mostrar..";
+            this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click);
+            // 
             // FrmPpal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -202,6 +223,7 @@
             this.grbPaquetes.PerformLayout();
             this.grbPaquete.ResumeLayout(false);
             this.grbPaquete.PerformLayout();
+            this.cmsListas.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -209,9 +231,9 @@
         #endregion
 
         private System.Windows.Forms.GroupBox grbPaquetes;
-        private System.Windows.Forms.ListBox lsbEstadoEntregado;
-        private System.Windows.Forms.ListBox lsbEstadoEnViaje;
-        private System.Windows.Forms.ListBox lsbEstadoIngresado;
+        private System.Windows.Forms.ListBox lstEstadoEntregado;
+        private System.Windows.Forms.ListBox lstEstadoEnViaje;
+        private System.Windows.Forms.ListBox lstEstadoIngresado;
         private System.Windows.Forms.Label lblEstadoEntregado;
         private System.Windows.Forms.Label lblEstadoEnViaje;
         private System.Windows.Forms.Label lblEstadoIngresado;
@@ -223,6 +245,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblTrackingID;
         private System.Windows.Forms.MaskedTextBox mtbTrackingID;
+        private System.Windows.Forms.ContextMenuStrip cmsListas;
+        private System.Windows.Forms.ToolStripMenuItem mostrarToolStripMenuItem;
     }
 }
 

@@ -56,7 +56,7 @@ namespace Entidades
             string paquetes = " ";
             foreach (Paquete p in ((Correo)elemento).Paquetes)
             {
-                paquetes+= string.Format("{0} para {1} ({2} \n)", p.TrackingID, p.DireccionEntrega, p.Estado.ToString());
+                paquetes+= string.Format("{0} para {1} ({2})\n", p.TrackingID, p.DireccionEntrega, p.Estado.ToString());
 
             }
             return paquetes;
@@ -78,13 +78,11 @@ namespace Entidades
             {
                 if (unPaquete == p)
                 {
-                    throw new TrackingIdRepetidoException("El paquete que ingreso, ya existe");
+                    throw new TrackingIdRepetidoException("Error. El paquete que ingreso ya existe!");
                 }
-                else
-                {
-                    c.paquetes.Add(unPaquete);//Observar!
-                }
+                
             }
+            c.paquetes.Add(p);
             Thread cicloDeVida = new Thread(p.MockCicloDeVida);
             c.mockPaquetes.Add(cicloDeVida);
             cicloDeVida.Start();
