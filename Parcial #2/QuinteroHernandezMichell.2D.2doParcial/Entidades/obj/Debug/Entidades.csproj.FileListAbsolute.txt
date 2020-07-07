@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\bin\Debug\Entidades.dll
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\bin\Debug\Entidades.pdb
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\obj\Debug\Entidades.dll
+C:\Users\miche\OneDrive\Escritorio\Tp_Laboratorio_2\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\obj\Debug\Entidades.pdb
+C:\Users\miche\OneDrive\Escritorio\privados\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\miche\OneDrive\Escritorio\privados\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\bin\Debug\Entidades.dll
+C:\Users\miche\OneDrive\Escritorio\privados\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\bin\Debug\Entidades.pdb
+C:\Users\miche\OneDrive\Escritorio\privados\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\miche\OneDrive\Escritorio\privados\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Escritorio\privados\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\obj\Debug\Entidades.dll
+C:\Users\miche\OneDrive\Escritorio\privados\Parcial #2\QuinteroHernandezMichell.2D.2doParcial\Entidades\obj\Debug\Entidades.pdb
